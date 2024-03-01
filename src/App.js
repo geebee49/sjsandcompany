@@ -12,7 +12,7 @@ function App() {
     <Router>
         <Navbar />
         <Routes>
-          <Route path='/sjsandcompany' exact Component={Home}></Route>
+          <Route path='/' exact Component={Home}></Route>
           <Route path='/services' exact Component={Services}></Route>
         </Routes>
     </Router>
