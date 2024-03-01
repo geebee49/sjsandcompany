@@ -36,7 +36,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ],
-
-    "homepage":"www.sjsandcompany.in"
+    "homepage": "https://geebee49.github.io/sjscompany"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
