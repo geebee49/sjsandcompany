@@ -1,0 +1,72 @@
+/* video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+  
+
+   */
+
+
+
+   .sjs-cont{
+    display: flex;
+    flex-direction: row;
+
+   }
+  .container1 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    background-color:white;
+    border-bottom: 3px dotted black;
+  }
+  
+  h1 {
+    color: black;
+    font-size: 100px;
+  }
+  
+  .container1 > h2{
+      font-size:50px;
+      margin-bottom: 30px;
+  }
+  .container1 > p {
+    margin-top: 5px;
+    color: black;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    width: 1000px;
+    text-align: justify;
+  }
+  
+  
+  .fa-play-circle {
+    margin-left: 4px;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .container1 > h2 {
+      font-size: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container1 > h1 {
+      font-size: 50px;
+    }
+  
+    .container1 > p {
+      font-size: 20px;
+      text-align: justify;
+      width:500px;
+    }
+  
+  }
