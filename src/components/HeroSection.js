@@ -13,7 +13,7 @@ function HeroSection() {
           <img  className='logo' src={calogo} alt=""></img>
           <h1 className='title'>SJS AND COMPANY</h1>
           </div>
-          <p>Charted Accountants</p>
+          <p>Chartered Accountants</p>
 
       {/* <div className='hero-btns'>        
       <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>CONTACT US</Button>

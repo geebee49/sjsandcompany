@@ -6,6 +6,15 @@ function Footer() {
   return (
     <div className='footer-container'>
       <div class='footer-links'>
+      <div className='footer-link-wrapper'>
+          <div class='footer-link-items'>
+            <h2>Partners</h2>
+            <div className='contact-us-items'>
+            <p className='contact-p'>Jose George</p>
+            <p className='contact-p'>Santhosh C G</p>
+            </div>
+          </div>
+        </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
